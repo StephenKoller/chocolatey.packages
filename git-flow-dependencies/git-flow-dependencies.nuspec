@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>git-flow-dependencies</id>
+    <title>git-flow-dependencies</title>
+    <version>0.2</version>
+    <authors>Eric Polerecky</authors>
+    <owners>Eric Polerecky</owners>
+    <summary>git-flow-dependencies</summary>
+    <description>These is a metapackage that installs the dependencies required to for git-flow on windows. https://github.com/nvie/gitflow/wiki/Windows</description>
+    <projectUrl>https://github.com/detroitpro</projectUrl>
+    <tags>git-flow-dependencies admin</tags>
+    <copyright></copyright>
+    <licenseUrl>https://github.com/detroitpro</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="msysgit" version="" />
+	  <dependency id="util-linux-ng-getopt" version="" />
+	  <dependency id="util-linux-ng-libintl3" version="" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+</package>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>util-linux-ng-libintl3</id>
+    <title>util-linux-ng-libintl3</title>
+    <version>2.14.1</version>
+    <authors>GnuWin</authors>
+    <owners>Eric Polerecky</owners>
+    <summary>libintl3.dll for use with git-flow</summary>
+    <description>libintl3.dll</description>
+    <projectUrl>http://gnuwin32.sourceforge.net/packages/util-linux-ng.htm</projectUrl>
+    <tags>libintl3.dll admin git gitflow git-flow</tags>
+    <copyright>http://www.gnu.org/copyleft/gpl.html</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
+  </metadata>
+</package>
