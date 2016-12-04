@@ -1,6 +1,14 @@
 ﻿try {
   $sysDrive = $env:SystemDrive
-  $gitBinPath = if (Test-Path "$sysDrive\Program Files (x86)\Git\bin") { "$sysDrive\Program Files (x86)\Git\bin" } else { "$sysDrive\Program Files\Git\bin" }
+
+  if (Test-Path "$sysDrive\Program Files (x86)\Git\bin") {
+      $gitBinPath = "$sysDrive\Program Files (x86)\Git\bin"
+  } elseif (Test-Path "$sysDrive\Program Files\Git\bin") { 
+      $gitBinPath = "$sysDrive\Program Files\Git\bin"
+  } else {
+    write-host 'could not find git install directory'
+    throw
+  }
 
   $scriptDir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
   $installerDir = Join-Path $scriptDir 'installer'
