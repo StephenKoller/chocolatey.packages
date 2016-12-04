@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>util-linux-ng-libiconv2</id>
+    <title>util-linux-ng-libiconv2</title>
+    <version>2.14.1</version>
+    <authors>GnuWin</authors>
+    <owners>Eric Polerecky, Stephen Koller</owners>
+    <summary>libiconv2.dll for use with git-flow</summary>
+    <description>libiconv2.dll</description>
+    <projectUrl>http://gnuwin32.sourceforge.net/packages/util-linux-ng.htm</projectUrl>
+    <tags>libiconv2.dll admin git gitflow git-flow</tags>
+    <copyright>http://www.gnu.org/copyleft/gpl.html</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
+  </metadata>
+</package>
