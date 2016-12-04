@@ -14,9 +14,9 @@
     <licenseUrl>https://github.com/detroitpro</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
-      <dependency id="msysgit" version="" />
-	  <dependency id="util-linux-ng-getopt" version="" />
-	  <dependency id="util-linux-ng-libintl3" version="" />
+      <dependency id="util-linux-ng-getopt" version="" />
+      <dependency id="util-linux-ng-libintl3" version="" />
+      <dependency id="util-linux-ng-libiconv2" version="" />    
     </dependencies>
     <releaseNotes></releaseNotes>
   </metadata>
